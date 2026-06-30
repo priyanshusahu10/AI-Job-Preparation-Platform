@@ -57,7 +57,7 @@ export async function getUser() {
 
     try {
 
-        const response = await axios.get("https://ai-job-preparation-platform-beta.vercel.app//api/auth/get-user",{
+        const response = await axios.get("https://ai-job-preparation-platform-beta.vercel.app/api/auth/get-user",{
             withCredentials:true
         })
 
