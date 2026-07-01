@@ -7,7 +7,7 @@ const interviewRouter = require('./routes/interview.route')
 app.use(express.json());
 app.use(cookieParser())
 app.use(cors({
-    origin: "https://ai-job-preparation-platform-beta.vercel.app/",
+    origin: "https://ai-job-preparation-platform-beta.vercel.app",
     credentials: true
 }))
 
